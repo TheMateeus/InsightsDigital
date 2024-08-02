@@ -11376,3 +11376,32 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
 }
+
+.swiper {
+  height: 600px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-pagination {
+  bottom:var(--swiper-pagination-bottom, -2px) !important ;
+}
+
+.swiper-3d .swiper-slide-shadow-left  {
+  height: 531px !important;
+}
+.swiper-3d .swiper-slide-shadow-right  {
+  height: 531px !important;
+}
