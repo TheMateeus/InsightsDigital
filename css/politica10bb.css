@@ -1,0 +1,109 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, main, time, mark, audio, video, details, summary {margin: 0;	padding: 0;	border: 0; font-size: 100%; font-style: normal; font-weight: normal; vertical-align: baseline; background: transparent;} main, article, aside, figure, footer, header, nav, main, details, summary,img {display: block;} html {box-sizing: border-box;} *,*:before,*:after {box-sizing: inherit;} img,object,embed {max-width: 100%;} ul {list-style: none;} blockquote, q {quotes: none;} blockquote:before,blockquote:after,q:before,q:after {content: ''; content: none;} a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;} del {text-decoration: line-through;} abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;} table {border-collapse: separate; border-spacing: 0;} th {font-weight: bold; vertical-align: bottom;} td {font-weight: normal; vertical-align: top;} hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;} input, select {vertical-align: middle;} input[type="radio"] {vertical-align: text-bottom;} input[type="checkbox"] {vertical-align: bottom;} input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit; outline:none;}input,button,textarea,select{*font-size:100%;}fieldset,input,button,textarea,select{border:none; padding:0; margin:0; background:none;}a{text-decoration:none;} table {font-size: inherit; font: 100%;}
+small {font-size: 85%;} strong {font-weight: bold;} td, td img {vertical-align: top;} sub, sup {font-size: 75%; line-height: 0; position: relative;} sup {top: -0.5em;} sub {bottom: -0.25em;} pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+
+body, html{ font:normal 17px/26px 'Libre Franklin'; color: #ffffff; background: #000000;}
+*{ outline:none;}
+img{ display: block;}
+
+*{scrollbar-width: auto; scrollbar-color: #D91149; scroll-behavior: smooth;}
+*::-webkit-scrollbar {width: 8px;}
+*::-webkit-scrollbar-track {background: #010101;}
+*::-webkit-scrollbar-thumb {background-color: #D91149;}
+ 
+	::selection {background:#010101; color:#D91149;}
+	::-webkit-selection {background:#010101; color:#D91149;}
+	::-moz-selection {background:#010101; color:#D91149;}
+
+@media screen and (max-width:1200px){
+	._1000 body.politica main .centro{padding:50px 20px 55px}
+}
+
+/*TOPO*/
+	body.politica{}
+		body.politica header{max-width:1920px;width:100%;background:#000000;}
+		body.politica header .centro{max-width:1240px;padding: 38px 20px 138px;display:flex;justify-content:space-between;align-items:end;margin:0 auto;}
+			body.politica header .centro h1{}
+				body.politica header .centro h1 img{}
+			body.politica header .centro h2{color:#FFF;font:600 38px/46px 'Libre Franklin';padding-bottom:5px;}
+/*CENTRO*/
+		body.politica main{background:#270417;position:relative;margin-top:-77px;padding-bottom: 110px;}
+			body.politica main::before{content:'';position:absolute;top:0;left:0;width:100%;height:77px;background:#000000;}
+			body.politica main .centro{position:relative;max-width:1200px;width:calc(100% - 40px);padding: 50px 80px 55px;margin:0 auto;background:#ffffff;color:#000000;transition:0.5s all ease;}
+				body.politica main .centro h3{color:#D91149;font:400 20px/30px 'Libre Franklin';}
+				body.politica main .centro p{color:#000000;font:400 17px/26px 'Libre Franklin';margin-bottom: 45px;}
+					body.politica main .centro p:last-of-type{margin-bottom:0;}
+					body.politica main .centro p a:link,
+					body.politica main .centro p a:visited,
+					body.politica main .centro p a:active{color: #000000;font: 400 17px/26px 'Libre Franklin';text-decoration: underline;transition: 0.5s all ease;}
+					body.politica main .centro p a:hover{color: #D91149;}
+				body.politica main .centro ul{padding-left: 20px;margin-bottom: 45px;}
+					body.politica main .centro ul li{position: relative;padding-left: 20px;}
+						body.politica main .centro ul li em{}
+							body.politica main .centro ul li::before{content:'';position:absolute;width: 5px;height: 5px;background:#000000;border-radius:50%;top: 12px;left: 8px;transform: translateY(-50%);}
+					body.politica main .centro b{display: block;margin-bottom: 40px;}
+					body.politica main .centro p i{color: #000000;font: 500 17px/26px 'Libre Franklin';margin-bottom: 40px;padding: 0 2px;background: yellow;}
+					body.politica main .centro p em{color: #000000;font: 600 17px/26px 'Libre Franklin';}
+/*FOOTER*/		
+		body.politica footer{max-width: 1920px; margin: 0 auto;}
+			body.politica footer .centro{max-width: 1240px;margin: 0 auto;display: flex;align-items: center;justify-content: space-between;padding: 38px 20px;}
+				body.politica footer .centro div.logoFooter{position: relative;margin-right: 120px;}
+					body.politica footer .centro div.logoFooter::before{content:'';position: absolute;height: 165px;width: 2px;top: -38px;right: -48px;z-index: 999999999;background: #270417;display: none;}
+					body.politica footer .centro div.logoFooter span{}
+						body.politica footer .centro div.logoFooter span svg{}
+							body.politica footer .centro div.logoFooter span svg path{}
+				body.politica footer .centro p{color: #FFF;font: 400 16px/20px 'Libre Franklin';margin-right: 72px;}
+				body.politica footer .centro a:link,
+				body.politica footer .centro a:visited,
+				body.politica footer .centro a:active{color: #FFF;font: 400 16px/20px 'Libre Franklin';position: relative;transition: 0.8s all ease;}
+					body.politica footer .centro a::before{content:'';position: absolute;height: 165px;width: 2px;top: -72px;right: -75px;background: #270417;display: none;}
+					body.politica footer .centro a::after{content:'';position: absolute;height: 1px;width: 0%;bottom: 0;left: 0;border-top: 1px dashed #fff;transition: 0.5s all ease;opacity:0;}
+				body.politica footer .centro a:hover{filter: brightness(1.5);}
+				body.politica footer .centro a:hover::after{opacity:1;width: 100%;}
+
+/*MOBILE*/
+
+/*TOPO*/
+._320 body.politica{}
+		._320 body.politica header{max-width: 440px;margin: 0 auto;}
+		._320 body.politica header .centro{padding: 25px 20px 90px;max-width: 440px;margin: 0 auto;align-items: center;justify-content: space-between;flex-direction: column;}
+			._320 body.politica header .centro h1{}
+				._320 body.politica header .centro h1 img{}
+			._320 body.politica header .centro h2{font: 600 22px/24px 'Libre Franklin';text-align: center;max-width: 370px;margin-top: 10px;padding: 10px;}
+
+/*CENTRO*/
+._320 body.politica main{padding-bottom: 0;}
+._320 body.politica main::before{}
+._320 body.politica main .centro{max-width: 440px;width:100%;margin: 0 auto;padding: 20px 15px 10px;}
+	._320 body.politica main .centro h3{font: 400 16px/22px 'Libre Franklin';margin-bottom: 5px;max-width: calc(100% - 30px);text-align: center;margin: 0 auto 5px;}
+	._320 body.politica main .centro p{font: 400 16px/23px 'Libre Franklin';margin-bottom: 15px;text-align: justify;}
+		._320 body.politica main .centro p:last-of-type{}
+		body.politica main .centro p a:link,
+		body.politica main .centro p a:visited,
+		._320 body.politica main .centro p a:active{}
+		._320 body.politica main .centro p a:hover{}
+	._320 body.politica main .centro ul{margin-bottom: 25px;padding-left: 5px;}
+		._320 body.politica main .centro ul li{width: calc(100% + 34px);margin: 0 -20px;font-size: 14px;line-height: 21px;padding: 17px 20px 19px 30px;}
+			._320 body.politica main .centro ul li:nth-of-type(odd){background: rgb(0 0 0 / 7%);}
+			._320 body.politica main .centro ul li em{}
+				._320 body.politica main .centro ul li::before{top: 27px;left: 20px;}
+		._320 body.politica main .centro b{font: normal 14px/19px 'Libre Franklin';margin-bottom: 15px;}
+		._320 body.politica main .centro p i{}
+		._320 body.politica main .centro p em{}
+
+/*FOOTER*/		
+._320 body.politica footer{max-width: 440px;}
+._320 body.politica footer .centro{flex-direction: column;padding: 20px 15px;max-width: 440px;margin: 0 auto;}
+	._320 body.politica footer .centro div.logoFooter{margin: 0 auto;}
+		._320 body.politica footer .centro div.logoFooter::before{display: none;}
+		._320 body.politica footer .centro div.logoFooter span{}
+			._320 body.politica footer .centro div.logoFooter span svg{}
+				._320 body.politica footer .centro div.logoFooter span svg path{}
+	._320 body.politica footer .centro p{text-align: center;line-height: 18px;max-width: 250px;margin: 20px auto;}
+	._320 body.politica footer .centro a:link,
+	._320 body.politica footer .centro a:visited,
+	._320 body.politica footer .centro a:active{text-align: center;}
+		._320 body.politica footer .centro a::before{display: none;}
+		._320 body.politica footer .centro a::after{}
+	._320 body.politica footer .centro a:hover{}
+	._320 body.politica footer .centro a:hover::after{}
