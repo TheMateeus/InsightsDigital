@@ -4229,6 +4229,11 @@ textarea.form-control-lg {
 
 .card-text:last-child {
   margin-bottom: 0;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .card-link + .card-link {
@@ -7681,6 +7686,10 @@ textarea.form-control-lg {
 }
 
 .mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.mbi-4 {
+  width: 20%;
   margin-bottom: 1.5rem !important;
 }
 
@@ -11404,4 +11413,115 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .swiper-3d .swiper-slide-shadow-right  {
   height: 531px !important;
+}
+
+.swiper .swiper-slide {
+  height: 600px;
+}
+
+
+
+
+
+
+/* Container da seção */
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente o conteúdo */
+  justify-content: center; /* Centraliza verticalmente o conteúdo */
+  padding: 2rem; /* Adiciona algum espaçamento */
+}
+/*Texto do card*/
+.pText{
+  text-align: left;
+  padding-left: 10px;
+}
+/* Título da seção */
+.custom-section-title {
+  margin-top: 5rem;
+  margin-bottom: 2rem; /* Espaçamento abaixo do título */
+  text-align: center; /* Centraliza o texto */
+  font-size: 2rem; /* Tamanho do texto */
+  font-weight: bold; /* Peso da fonte */
+}
+
+/* Container dos cards */
+.custom-card-container {
+  display: flex;
+  padding-top: 40px;
+  flex-wrap: nowrap; /* Garante que os cards não se movam para a linha seguinte */
+  justify-content: space-evenly;
+  gap: 1rem; /* Espaçamento entre os cards */
+  max-width: 100%; /* Garante que a largura máxima não exceda a tela */
+}
+
+/* Estilo do card */
+.custom-card {
+  flex: 0 0 calc(20% - 1rem); /* Ajusta a largura dos cards para caber melhor em uma linha */
+  height: 400px; /* Altura fixa para o card */
+  overflow: hidden; /* Garante que o conteúdo não ultrapasse o card */
+  border-radius: 8px; /* Bordas arredondadas */
+}
+/* Estilo para o topo do card */
+.custom-card-img-top {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  gap: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  flex-direction: column;
+  transition: border 0.3s linear; /* Transição suave para a borda */
+}
+.custom-card-img-top.collapsed {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom: 2px solid;
+}
+.custom-card-img-top.expanded {
+  transition: border 0.3s linear; /* Transição suave para a borda */
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: none;
+}
+
+
+/* Estilo do corpo do card */
+.custom-card-body {
+  text-align: center;
+  height: calc(100% - 150px); /* Ajusta a altura do corpo do card */
+  overflow: auto; /* Permite rolagem se o conteúdo exceder a altura */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 991px) {
+  .custom-card {
+    flex: 0 0 calc(48% - 1rem); /* Ajusta a largura dos cards para duas colunas */
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-card {
+    flex: 0 0 100%; /* Ajusta para ocupar toda a largura em telas menores */
+    max-width: 100%;
+  }
+  .mbi-4{
+    width: 50%;
+  }
+  .custom-card-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
