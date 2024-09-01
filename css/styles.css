@@ -11342,6 +11342,23 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.iframe-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Aspect ratio for 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #fff;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Carousel 3D styles */
 .carousel-inner {
   perspective: 1000px;
@@ -11524,4 +11541,18 @@ section#contact form#contactForm :-ms-input-placeholder {
     flex-direction: column;
     align-items: center;
   }
+}
+
+.colorback {
+  background-color: var(--bs-yellow);
+  width: 100%;
+  height: 3rem;
+  align-items: center;  
+  display: flex;
+  justify-content: center;
+}
+
+
+.fa-check {
+color: green;
 }
